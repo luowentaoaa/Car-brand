@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0AC73E24093FBE00A4F941 /* LLGruop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0AC73D24093FBE00A4F941 /* LLGruop.m */; };
 		2A6F213C24093D71004AA62F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F213B24093D71004AA62F /* AppDelegate.m */; };
 		2A6F213F24093D71004AA62F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F213E24093D71004AA62F /* SceneDelegate.m */; };
 		2A6F214224093D71004AA62F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F214124093D71004AA62F /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		2A6F214D24093D73004AA62F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F214C24093D73004AA62F /* main.m */; };
 		2A6F215724093D73004AA62F /* ______2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F215624093D73004AA62F /* ______2Tests.m */; };
 		2A6F216224093D73004AA62F /* ______2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F216124093D73004AA62F /* ______2UITests.m */; };
+		2A6F217024093D94004AA62F /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A6F216F24093D94004AA62F /* cars_total.plist */; };
+		2A6F217324093E1A004AA62F /* LLCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F217224093E1A004AA62F /* LLCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A0AC73C24093FBE00A4F941 /* LLGruop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLGruop.h; sourceTree = "<group>"; };
+		2A0AC73D24093FBE00A4F941 /* LLGruop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLGruop.m; sourceTree = "<group>"; };
 		2A6F213724093D71004AA62F /* 汽车品牌展示2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "汽车品牌展示2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6F213A24093D71004AA62F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A6F213B24093D71004AA62F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,9 @@
 		2A6F215D24093D73004AA62F /* 汽车品牌展示2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "汽车品牌展示2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6F216124093D73004AA62F /* ______2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______2UITests.m"; sourceTree = "<group>"; };
 		2A6F216324093D73004AA62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A6F216F24093D94004AA62F /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
+		2A6F217124093E1A004AA62F /* LLCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLCar.h; sourceTree = "<group>"; };
+		2A6F217224093E1A004AA62F /* LLCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +117,13 @@
 				2A6F213D24093D71004AA62F /* SceneDelegate.h */,
 				2A6F213E24093D71004AA62F /* SceneDelegate.m */,
 				2A6F214024093D71004AA62F /* ViewController.h */,
+				2A6F217124093E1A004AA62F /* LLCar.h */,
+				2A6F217224093E1A004AA62F /* LLCar.m */,
+				2A0AC73C24093FBE00A4F941 /* LLGruop.h */,
+				2A0AC73D24093FBE00A4F941 /* LLGruop.m */,
 				2A6F214124093D71004AA62F /* ViewController.m */,
 				2A6F214324093D71004AA62F /* Main.storyboard */,
+				2A6F216F24093D94004AA62F /* cars_total.plist */,
 				2A6F214624093D73004AA62F /* Assets.xcassets */,
 				2A6F214824093D73004AA62F /* LaunchScreen.storyboard */,
 				2A6F214B24093D73004AA62F /* Info.plist */,
@@ -199,6 +212,7 @@
 		2A6F212F24093D71004AA62F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LL;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = luowentao;
 				TargetAttributes = {
@@ -242,6 +256,7 @@
 			files = (
 				2A6F214A24093D73004AA62F /* LaunchScreen.storyboard in Resources */,
 				2A6F214724093D73004AA62F /* Assets.xcassets in Resources */,
+				2A6F217024093D94004AA62F /* cars_total.plist in Resources */,
 				2A6F214524093D71004AA62F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,9 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A6F214224093D71004AA62F /* ViewController.m in Sources */,
+				2A0AC73E24093FBE00A4F941 /* LLGruop.m in Sources */,
 				2A6F213C24093D71004AA62F /* AppDelegate.m in Sources */,
 				2A6F214D24093D73004AA62F /* main.m in Sources */,
 				2A6F213F24093D71004AA62F /* SceneDelegate.m in Sources */,
+				2A6F217324093E1A004AA62F /* LLCar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
